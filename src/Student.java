@@ -23,15 +23,6 @@ public class Student {
         System.out.println("Major: "+major);
         System.out.println("Faculty : "+faculty);
     }
-    
-    
-    
-    public static void main(String[] args)  {
-        Student sineenart = new Student();
-        System.out.println("Object = "+sineenart);
-        sineenart.studentId = "614234006";
-        sineenart.major = "cs";
-        sineenart.faculty = "Scinrce and ";
-    }
+ 
     
 }

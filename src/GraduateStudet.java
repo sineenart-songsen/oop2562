@@ -1,7 +1,15 @@
-
 public class GraduateStudet {
-    //psvm + t
-    public static void main(String[] args) {
-        
+    
+    public String studyLevl;
+    public String thesisAdviser;
+    
+    public void thesisExamination(){
+        System.out.println("thesisExamination");
     }
+    public void oralExamination(){
+        System.out.println("oralExamination)");
+    
+}
+    
+    
 }
