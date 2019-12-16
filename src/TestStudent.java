@@ -23,9 +23,15 @@ public static void main(String[] args)  {
         GraduateStudet too = new GraduateStudet();
         too.studyLevl = "Year2";
         too.thesisAdviser = "Dr.Bean";
-        
-        
-        
-    }
-    
+        too.thesisExamination();
+        too.oralExamination();
+        too.studyLevl = "1002";
+        too.studentName = "Sineenart";
+        too.faculty = "Science";
+        too.major = "IT";
+        too.addCourae();
+        too.dropCourse();
+        too.enrollment();
+        too.payment();
+    }  
 }

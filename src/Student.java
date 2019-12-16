@@ -23,6 +23,4 @@ public class Student {
         System.out.println("Major: "+major);
         System.out.println("Faculty : "+faculty);
     }
- 
-    
 }

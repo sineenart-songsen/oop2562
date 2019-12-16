@@ -1,4 +1,6 @@
-public class GraduateStudet {
+
+
+public class GraduateStudet extends Student{
     
     public String studyLevl;
     public String thesisAdviser;
@@ -9,7 +11,5 @@ public class GraduateStudet {
     public void oralExamination(){
         System.out.println("oralExamination)");
     
-}
-    
-    
+}      
 }
